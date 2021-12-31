@@ -9,6 +9,7 @@
     width: 20rem;
     max-width: 95%;
     margin: 1rem;
+    background: rgb(255 255 255 / 50%);
 }
 
 .product__title {

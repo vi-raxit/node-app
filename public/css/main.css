@@ -8,6 +8,9 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  background-image: url('../images/bg.jpg');
+  background-position: center;
+  background-repeat: repeat-y;
 }
 
 main {
@@ -26,7 +29,7 @@ form {
 .main-header {
   width: 100%;
   height: 3.5rem;
-  background-color: #00695c;
+  background-color: #124968;
   padding: 0 1.5rem;
   display: flex;
   align-items: center;
@@ -53,12 +56,13 @@ form {
 .main-header__item a {
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
 }
 
 .main-header__item a:hover,
 .main-header__item a:active,
 .main-header__item a.active {
-  color: #ffeb3b;
+  color: #89d9ff;
 }
 
 .mobile-nav {
@@ -184,16 +188,16 @@ form {
   padding: 0.25rem 1rem;
   text-decoration: none;
   font: inherit;
-  border: 1px solid #00695c;
-  color: #00695c;
-  background: white;
-  border-radius: 3px;
+  color: #FFF;
+  background: #124968;
   cursor: pointer;
+  border: none;
+  text-transform: uppercase;
 }
 
 .btn:hover,
 .btn:active {
-  background-color: #00695c;
+  background-color: #1872a7;
   color: white;
 }
 
